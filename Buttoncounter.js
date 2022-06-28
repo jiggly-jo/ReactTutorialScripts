@@ -15,6 +15,7 @@ function Display(props){
 }
 //App
 function App(){
+  //using hooks instead of states
   const [counter, setCounter] = useState(42);
   const incrementCounter = (incrementValue) => setCounter(counter + incrementValue);
   return (
